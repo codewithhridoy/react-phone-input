@@ -1,0 +1,97 @@
+.country-phone-input {
+  display: flex;
+  align-items: center;
+}
+
+.country-phone-input .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.country-phone-input .dropdown-button {
+  border: 1px solid #cbcae5;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 56px;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444052;
+}
+
+.country-phone-input .dropdown-button:focus {
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  border: 1px solid #cbcae5;
+  border-right: none;
+}
+
+.country-phone-input .dropdown-button span {
+  margin-left: 10px;
+}
+
+.country-phone-input .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  /* width: 100%; */
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #cbcae5;
+  border-radius: 4px;
+  margin-top: 4px;
+  list-style: none;
+  padding: 10px;
+  z-index: 1;
+  overflow-y: scroll;
+  height: 100px;
+}
+
+.dropdown-item {
+  font-family: 'DM Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444052;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.dropdown-item:hover {
+  background-color: grey;
+}
+
+.dropdown-item span {
+  margin-left: 5px;
+}
+
+.country-phone-input .phone-input {
+  background-color: #ffffff;
+  border: 1px solid #cbcae5;
+  border-left: none;
+  padding: 0 16px;
+  border-radius: 0 8px 8px 0;
+  height: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6f6e80;
+}
+
+.country-phone-input .phone-input:focus {
+  border-radius: 0 8px 8px 0;
+  outline: none;
+  border: 1px solid #cbcae5;
+  border-left: none;
+}
